@@ -3,4 +3,5 @@
 from . import education_class
 from . import education_student
 from . import education_class_inherit
-from . import education_student_ethnic
+from . import ethnic
+from . import education_enrollment

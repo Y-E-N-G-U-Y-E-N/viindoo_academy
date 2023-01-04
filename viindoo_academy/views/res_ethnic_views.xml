@@ -1,0 +1,37 @@
+<odoo>
+	<data>
+
+		<record id="res_ethnic_view_tree" model="ir.ui.view">
+			<field name="name">res.ethnic.tree</field>
+			<field name="model">res.ethnic</field>
+			<field name="arch" type="xml">
+				<tree string="Class Form">
+					<field name="name" />
+					<field name="code" />
+				</tree>
+			</field>
+		</record>
+
+		<record id="res_ethnic_view_form" model="ir.ui.view">
+			<field name="name">res.ethnic.form</field>
+			<field name="model">res.ethnic</field>
+			<field name="arch" type="xml">
+				<form string="Class Form">
+					<sheet>
+					<header>
+						<button name="button_abc" groups="account.group_account_manager" />
+					</header>
+						<group>
+							<field name="name" />
+							<field name="code" groups="base.group_user" />
+						</group>
+
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+
+
+	</data>
+</odoo>

@@ -20,13 +20,13 @@ class EducationStudent(models.Model):
         column2='class_id',
         string='Enrolled Classes')
 
-    country_ids = fields.Many2many('res.country',string="Country")
-    country_ids_2=fields.Char(related='ethnic_ids.name', store=True)
+    ethnic_id = fields.Many2one('res.ethnic')
+    ethnic_code = fields.Char(related='ethnic_id.code', store=True)
     
-    ethnic_ids = fields.Many2many('education.student.ethnic','ethnic_ids')
-    user_id = fields.Many2one(comodel_name = 'res.users', string = 'User') 
+    ethnic_code2 = fields.Char(compute='_compute_ethnic_code2', store=True)
     
-    @api.onchange('ethnic_ids')
-    def _onchange_country(self):
-        if self.ethnic_ids:
-            self.country_ids = self.ethnic_ids.country_ids
+    @api.depends('ethnic_id')
+    def _compute_ethnic_code2(self):
+        for r in self:
+            r.ethnic_code2 = r.ethnic_id.code
+    

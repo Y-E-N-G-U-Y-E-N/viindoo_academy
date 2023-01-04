@@ -1,5 +1,5 @@
 from odoo import models, fields, api
-from odoo.exceptions import ValidationError
+from odoo.exceptions import UserError
 
 
 class EducationClass(models.Model):
@@ -47,27 +47,34 @@ class EducationClass(models.Model):
         column1='class_id',
         column2='student_id',
         string="Historical Students")
-
-    student_count = fields.Integer(string='Number of students', compute='_compute_student_count')
     
-    historical_student_count = fields.Integer(string='Number of historical students', onchange='_onchange_historical_student_count')
+    students_count = fields.Integer(string='Students Count', compute='_compute_students_count', store=True)
     
-    responsible_id = fields.Many2one(comodel_name='education.student', string='Responsible user', default = lambda self: self.env.user)
+    company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
     
-    @api.onchange('historical_student_ids')
-    def _onchange_historical_student_count(self):
-        for i in self:
-            i.historical_student_count = len(i.historical_student_ids)
+    enrollment_ids = fields.One2many('education.enrollment', 'class_id', string='Enrollment')
+    
+    enrolled_student_ids = fields.Many2many('education.student', 'enroll_student_rel',
+                                            'class_id', 'student_id',
+                                            compute='_compute_enrolled_student_ids',
+                                            store=True,
+                                            )
+    
+    @api.depends('enrollment_ids.student_id')
+    def _compute_enrolled_student_ids(self):
+        for r in self:
+            r.enrolled_student_ids = r.enrollment_ids.student_id
 
     @api.depends('student_ids')
-    def _compute_student_count(self):
+    def _compute_students_count(self):
         for r in self:
-            r.student_count = len(r.student_ids)
+            r.students_count = len(r.student_ids)
+
+    @api.constrains('start_date', 'end_date')
+    def _check_dates(self):
+        for r in self:
+            if r.start_date and r.end_date and r.start_date > r.end_date:
+                raise UserError("The start date must NOT be later than the end date")
+
             
-    @api.constrains('start_date','end_date')
-    def _check_date(self):
-        if self.start_date and self.end_date and self.start_date > self.end_date:
-            raise ValidationError("The start date of the class must be earlier than or equal to the end date.")
-        
-    _sql_constraints = [('class_name_unique', 'unique(name)', "The class name must be unique in the company!")]
- 
+

@@ -1,0 +1,472 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* viindoo_academy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-04 01:15+0000\n"
+"PO-Revision-Date: 2023-01-04 01:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: viindoo_academy
+#: model:ir.model,name:viindoo_academy.model_education_student
+msgid " Education Student"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.ui.menu,name:viindoo_academy.root_menu
+msgid "Academy"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__active
+msgid "Active"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__active_model
+msgid "Active Model"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_form
+msgid "Archived"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.view_education_enrollment_multi_form
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.view_education_enrollment_single_form
+msgid "Cancel"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields.selection,name:viindoo_academy.selection__education_class__state__cancelled
+msgid "Cancelled"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.actions.act_window,name:viindoo_academy.education_class_action
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__class_id
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__class_id
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__class_id
+#: model:ir.ui.menu,name:viindoo_academy.education_class_menu
+msgid "Class"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_form
+msgid "Class Form"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_graph
+msgid "Class Graph"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_pivot
+msgid "Class Pivot"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_search
+msgid "Class Search"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_tree
+msgid "Class Tree"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__ethnic_code
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__code
+msgid "Code"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__company_id
+msgid "Company"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields.selection,name:viindoo_academy.selection__education_class__state__confirmed
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_search
+msgid "Confirmed"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__country_id
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_form2
+msgid "Country"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_search
+msgid "Create Date"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__create_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__create_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__create_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__create_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi__create_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__create_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__create_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__create_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__create_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi__create_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__date
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__date
+msgid "Date"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__description
+msgid "Description"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__display_name
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__display_name
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__display_name
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__display_name
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi__display_name
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields.selection,name:viindoo_academy.selection__education_class__state__done
+msgid "Done"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields.selection,name:viindoo_academy.selection__education_class__state__draft
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_search
+msgid "Draft"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_search
+msgid "Draft or Confirmed"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model,name:viindoo_academy.model_education_class
+msgid "Education Class"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_calendar
+msgid "Education Class Calendar"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model,name:viindoo_academy.model_education_enrollment
+msgid "Education Enrollment"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_student_view_form
+msgid "Education History"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__end_date
+msgid "End Date"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_form
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_student_view_form
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.view_education_enrollment_multi_form
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.view_education_enrollment_single_form
+msgid "Enroll"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__class_ids
+msgid "Enrolled Classes"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__enrolled_student_ids
+msgid "Enrolled Student"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_form
+msgid "Enrolled Students"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.actions.act_window,name:viindoo_academy.education_enrollment_action
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__enrollment_ids
+#: model:ir.ui.menu,name:viindoo_academy.education_enrollment_menu
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_form
+msgid "Enrollment"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_enrollment_view_form
+msgid "Enrollment Form"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_enrollment_view_search
+msgid "Enrollment Search"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_enrollment_view_tree
+msgid "Enrollment Tree"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model,name:viindoo_academy.model_res_ethnic
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__ethnic_id
+msgid "Ethnic"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__ethnic_code2
+msgid "Ethnic Code2"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_search
+msgid "Group By"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__historical_student_ids
+msgid "Historical Students"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__id
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__id
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__id
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__id
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi__id
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__id
+msgid "ID"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class____last_update
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment____last_update
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student____last_update
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic____last_update
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi____last_update
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__write_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__write_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__write_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__write_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi__write_uid
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__write_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__write_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__write_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__write_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi__write_date
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_multi__line_ids
+msgid "Line"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.actions.act_window,name:viindoo_academy.education_enrollment_multi_class_action
+#: model:ir.actions.act_window,name:viindoo_academy.education_enrollment_multi_student_action
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.view_education_enrollment_multi_form
+msgid "Multi Enrollment Wizard"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__name
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_student__name
+#: model:ir.model.fields,field_description:viindoo_academy.field_res_ethnic__name
+msgid "Name"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_student_view_form
+msgid "Please input name of the class"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__name
+msgid "Ref."
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__registration_number
+msgid "Registration Number"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.actions.act_window,name:viindoo_academy.education_enrollment_single_action
+#: model:ir.model,name:viindoo_academy.model_wizard_enrollment_single
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.view_education_enrollment_single_form
+msgid "Single Enrollment Wizard"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__start_date
+msgid "Start Date"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__state
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_class_view_search
+msgid "Status"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_class__state
+msgid "Status of the class"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.actions.act_window,name:viindoo_academy.education_student_action
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_enrollment__student_id
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__student_id
+#: model:ir.ui.menu,name:viindoo_academy.education_student_menu
+msgid "Student"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_student_view_form
+msgid "Student Form"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_student_view_graph
+msgid "Student Graph"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_student_view_pivot
+msgid "Student Pivot"
+msgstr ""
+
+#. module: viindoo_academy
+#: model_terms:ir.ui.view,arch_db:viindoo_academy.education_student_view_tree
+msgid "Student Tree"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__student_ids
+msgid "Students"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_education_class__students_count
+msgid "Students Count"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_student__class_id
+msgid "The Class of student"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_class__start_date
+msgid "The date from of class"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_class__end_date
+msgid "The date of class"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_enrollment__date
+#: model:ir.model.fields,help:viindoo_academy.field_wizard_enrollment_single__date
+msgid "The date on which the student enrolls"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_class__description
+msgid "The description for identification."
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_res_ethnic__name
+msgid "The name of nation"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_class__name
+msgid "The name of the class for identification"
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,help:viindoo_academy.field_education_class__student_ids
+msgid "The students that belong to the class."
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model.fields,field_description:viindoo_academy.field_wizard_enrollment_single__wizard_multipe_id
+msgid "Wizard Multipe"
+msgstr ""
+
+#. module: viindoo_academy
+#. odoo-python
+#: code:addons/viindoo_academy/models/education_enrollment.py:0
+#, python-format
+msgid ""
+"You may not be able to enroll a student into the class %s whose status is "
+"not Confirmed."
+msgstr ""
+
+#. module: viindoo_academy
+#. odoo-python
+#: code:addons/viindoo_academy/models/education_enrollment.py:0
+#, python-format
+msgid "You may not be able to enroll the student %s into the class %s twice."
+msgstr ""
+
+#. module: viindoo_academy
+#. odoo-python
+#: code:addons/viindoo_academy/wizard/education_enrollment.py:0
+#, python-format
+msgid "You must specify both class and student fist."
+msgstr ""
+
+#. module: viindoo_academy
+#: model:ir.model,name:viindoo_academy.model_wizard_enrollment_multi
+msgid "wizard.enrollment.multi"
+msgstr ""

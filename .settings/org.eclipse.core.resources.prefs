@@ -3,5 +3,7 @@ encoding//viin_vip_academy/__manifest__.py=utf-8
 encoding//viin_vip_academy/models/__init__.py=utf-8
 encoding//viindoo_academy/__init__.py=utf-8
 encoding//viindoo_academy/__manifest__.py=utf-8
+encoding//viindoo_academy/controllers/__init__.py=utf-8
 encoding//viindoo_academy/controllers/controllers.py=utf-8
 encoding//viindoo_academy/models/__init__.py=utf-8
+encoding//viindoo_academy/wizard/__init__.py=utf-8

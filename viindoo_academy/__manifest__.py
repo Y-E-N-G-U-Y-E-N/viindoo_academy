@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "viindoo_academy",
+    'name': "Viindoo academy",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -26,14 +26,17 @@
     'data': [
         'security/ir.model.access.csv',
         'views/root_menu.xml',
+        'wizard/education_enrollment_views.xml',
         'views/education_class_views.xml',
         'views/education_class_views2.xml',
         'views/education_student_views.xml',
-        'views/education_student_ethnic_view.xml',
+        'views/education_enrollment_views.xml',
         # 'views/templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+    
+    'application': True,
 }
