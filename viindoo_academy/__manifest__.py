@@ -31,6 +31,7 @@
         'views/education_class_views2.xml',
         'views/education_student_views.xml',
         'views/education_enrollment_views.xml',
+        'reports/education_class_report.xml',
         # 'views/templates.xml',
     ],
     # only loaded in demonstration mode
